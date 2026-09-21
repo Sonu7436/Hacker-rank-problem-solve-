@@ -1,0 +1,8 @@
+The provided code stub reads an integer, , from STDIN. For all non-negative integers , i<n print (I*I) .
+
+# here is the code 
+if __name__ == '__main__':
+    n = int(input())
+for i in range (0,n):
+    print(i*i)
+    n+=1
